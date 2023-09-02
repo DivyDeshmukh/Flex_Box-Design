@@ -1,0 +1,96 @@
+body {
+    margin: 0px;
+
+}
+
+.heading {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 5rem;
+    color: red;
+}
+
+span {
+    color: midnightblue;
+    font-family: 'EB Garamond', serif;
+}
+
+.flex-container {
+    display: flex;
+    background-color: aliceblue;
+    height: 350px;
+    gap: 20px;
+    border: 20px solid aliceblue;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.red {
+    display: flex;
+    flex: 1;
+    background-color: #f1807e;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.green {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    gap: 20px;
+}
+
+.green1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:0.75;
+    background-color: #ffb97f;
+    border-radius: 4px;
+}
+
+.green2 {
+    display: flex;
+    flex: 1.25;
+    gap: 20px;
+}
+
+.pink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: #e4acdc;
+    border-radius: 4px;
+}
+
+.blue {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+
+.blue1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: lightskyblue;
+    border-radius: 4px;
+}
+
+.blue2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: lightskyblue;
+    border-radius: 4px;
+}
+
